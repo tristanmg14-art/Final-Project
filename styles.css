@@ -24,6 +24,38 @@ a:hover {
     text-decoration: underline;
 }
 
+.logo {
+    width: 160px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    margin-top: 2%;
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.nav__link--primary {
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    border: none;
+}
+
 .nav__container {
     padding: 0 24px;
     display: flex;
